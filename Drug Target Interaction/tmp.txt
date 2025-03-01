@@ -1,0 +1,34 @@
+mlgann/
+├── data/
+│   ├── raw/
+│   │   ├── drugbank_v5.1.8.csv
+│   │   ├── drug_chemical_similarity.csv
+│   │   ├── drug_side_effect.csv
+│   │   ├── drug_disease.csv
+│   │   ├── target_interaction.csv
+│   │   └── target_disease.csv
+│   ├── processed/
+│   │   ├── D-D-1.csv
+│   │   ├── D-D-2.csv
+│   │   ├── D-D-3.csv
+│   │   ├── T-T-1.csv
+│   │   ├── T-T-2.csv
+│   │   └── DTI.csv
+├── src/
+│   ├── data_processing/
+│   │   ├── __init__.py
+│   │   └── preprocess.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── mlgann.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── metrics.py
+│   ├── train.py
+│   └── evaluate.py
+├── experiments/
+│   └── config.yaml
+├── results/
+│   └── model_checkpoints/
+├── requirements.txt
+└── README.md
